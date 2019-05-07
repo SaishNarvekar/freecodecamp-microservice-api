@@ -8,5 +8,8 @@
   },
   "keywords":["Express","Microservice","Api","Mongodb","freecodecamp"],
   "author": "saish",
+  "dependencies":{
+	  "moment":"2.14.0"
+  },
   "license": "ISC"
 }
