@@ -1,14 +1,17 @@
 {
-  "name": "microservice-api",
-  "version": "1.0.0",
-  "description": "This project is about learning creating mircoservices and API in node using Express server and Mongodb",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords":["Express","Microservice","Api","Mongodb","freecodecamp"],
-  "author": "saish",
-  "dependencies":{
-  },
-  "license": "ISC"
+	"name": "fcc-learn-npm-package-json",
+	"dependencies": {
+		"express": "^4.14.0"
+	},
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"engines": {
+		"node": "8.11.2"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://idontknow/todo.git"
+	}
 }
